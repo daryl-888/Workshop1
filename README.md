@@ -12,6 +12,8 @@ This is session 1 of the **From Zero to GPU** series (Linux → CUDA basics → 
 raytracer). The skills you learn today are the exact skills you'll use later to
 run code on a GPU.
 
+Google Slides: https://docs.google.com/presentation/d/1mlXVazz7RvN7RFVqPNC1st4rRUo5HkO8Qa4JGXrdGLg/edit?usp=sharing
+
 ---
 
 ## Step 0 — Get a terminal (2 minutes)
