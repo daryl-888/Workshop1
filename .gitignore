@@ -1,0 +1,17 @@
+# Student build output (created during the workshop, not source)
+command-center/
+latest.txt
+
+# Node (only needed to regenerate the slides)
+node_modules/
+package-lock.json
+
+# Build / render artifacts
+*.pdf
+slide-*.jpg
+qa*.jpg
+*.tmp
+
+# OS cruft
+.DS_Store
+Thumbs.db

@@ -1,0 +1,420 @@
+Jul 20 06:00:44 workstation kernel[6768]: Reached target Multi-User System.
+Jul 20 06:02:01 workstation systemd[8613]: Reached target Multi-User System.
+Jul 20 06:02:34 workstation sshd[7255]: WARN: high memory pressure detected
+Jul 20 06:03:57 workstation nginx[1313]: connection accepted (PID 1313)
+Jul 20 06:05:11 workstation bluetoothd[2481]: Accepted publickey for student from 10.0.0.32 port 5229
+Jul 20 06:05:53 workstation containerd[3261]: WARN: high memory pressure detected
+Jul 20 06:07:06 workstation postgres[1328]: Starting cleanup of temporary directories...
+Jul 20 06:08:03 workstation udisksd[5446]: eth0: link becomes ready
+Jul 20 06:08:29 workstation postgres[4299]: WARN: deprecated config key 'ssl_protocols' ignored
+Jul 20 06:09:29 workstation NetworkManager[1499]: WARN: retrying database connection (attempt 11)
+Jul 20 06:09:51 workstation snapd[7209]: ERROR: segfault in module render at address 0x7ffde
+Jul 20 06:11:07 workstation udisksd[5440]: Reloading nginx configuration
+Jul 20 06:12:08 workstation sshd[1833]: eth0: link becomes ready
+Jul 20 06:13:33 workstation dockerd[7601]: connection accepted (PID 7601)
+Jul 20 06:14:21 workstation kernel[2218]: Time has been changed
+Jul 20 06:15:14 workstation gnome-shell[8434]: WARN: retrying database connection (attempt 26)
+Jul 20 06:15:34 workstation bluetoothd[7353]: Finished Daily apt download activities.
+Jul 20 06:16:06 workstation kernel[1659]: Time has been changed
+Jul 20 06:17:24 workstation kernel[4604]: Accepted publickey for student from 10.0.0.138 port 5225
+Jul 20 06:18:45 workstation dockerd[5520]: user session opened for uid=1000
+Jul 20 06:20:11 workstation nginx[1184]: CPU0: Package temperature normal.
+Jul 20 06:21:05 workstation gnome-shell[1996]: connection accepted (PID 1996)
+Jul 20 06:21:34 workstation snapd[2959]: WARN: high memory pressure detected
+Jul 20 06:22:49 workstation kernel[1962]: Starting cleanup of temporary directories...
+Jul 20 06:24:10 workstation gnome-shell[2733]: Reloading nginx configuration
+Jul 20 06:24:28 workstation sshd[8296]: eth0: link becomes ready
+Jul 20 06:24:41 workstation kernel[1974]: user session opened for uid=1000
+Jul 20 06:25:50 workstation systemd[3662]: Mounted /boot/efi.
+Jul 20 06:25:56 workstation udisksd[8952]: CPU0: Package temperature normal.
+Jul 20 06:27:05 workstation dbus[3036]: Time has been changed
+Jul 20 06:27:50 workstation nginx[3954]: Time has been changed
+Jul 20 06:28:22 workstation cron[8780]: user session opened for uid=1000
+Jul 20 06:29:25 workstation NetworkManager[3472]: Reloading nginx configuration
+Jul 20 06:30:14 workstation sshd[3912]: WARN: retrying database connection (attempt 13)
+Jul 20 06:31:18 workstation dockerd[331]: CPU0: Package temperature normal.
+Jul 20 06:32:45 workstation sshd[6665]: Time has been changed
+Jul 20 06:33:43 workstation udisksd[5747]: WARN: retrying database connection (attempt 30)
+Jul 20 06:34:06 workstation kernel[2381]: ERROR: authentication failure for user root from 45.9.12.208
+Jul 20 06:35:27 workstation bluetoothd[8071]: Reloading nginx configuration
+Jul 20 06:35:46 workstation systemd[533]: user session opened for uid=1000
+Jul 20 06:36:44 workstation bluetoothd[3491]: Time has been changed
+Jul 20 06:37:24 workstation containerd[4240]: Reloading nginx configuration
+Jul 20 06:37:43 workstation systemd[6096]: CPU0: Package temperature normal.
+Jul 20 06:38:39 workstation bluetoothd[8519]: WARN: connection rate limit reached, throttling
+Jul 20 06:39:38 workstation udisksd[3300]: Accepted publickey for student from 10.0.0.38 port 5227
+Jul 20 06:41:00 workstation postgres[2271]: Reloading nginx configuration
+Jul 20 06:42:04 workstation udisksd[2038]: Started Session 16 of user student.
+Jul 20 06:42:12 workstation udisksd[1901]: Mounted /boot/efi.
+Jul 20 06:43:11 workstation dbus[8582]: Time has been changed
+Jul 20 06:44:22 workstation udisksd[8132]: Time has been changed
+Jul 20 06:45:36 workstation cron[7632]: WARN: low disk space on /var (12% remaining)
+Jul 20 06:45:48 workstation nginx[4242]: Time has been changed
+Jul 20 06:46:10 workstation postgres[6299]: Accepted publickey for student from 10.0.0.58 port 5221
+Jul 20 06:47:03 workstation snapd[2967]: Time has been changed
+Jul 20 06:48:11 workstation gnome-shell[5856]: Reloading nginx configuration
+Jul 20 06:48:16 workstation dbus[7814]: Started Session 25 of user student.
+Jul 20 06:49:38 workstation NetworkManager[8692]: Reached target Multi-User System.
+Jul 20 06:49:51 workstation NetworkManager[4755]: ERROR: certificate expired for host api.internal
+Jul 20 06:50:48 workstation bluetoothd[4537]: Mounted /boot/efi.
+Jul 20 06:51:32 workstation sshd[4872]: WARN: connection rate limit reached, throttling
+Jul 20 06:52:09 workstation systemd[1751]: Reached target Multi-User System.
+Jul 20 06:52:20 workstation NetworkManager[2293]: Reloading nginx configuration
+Jul 20 06:53:42 workstation kernel[1007]: Time has been changed
+Jul 20 06:54:18 workstation systemd[3267]: Finished Daily apt download activities.
+Jul 20 06:54:58 workstation snapd[8493]: Finished Daily apt download activities.
+Jul 20 06:55:33 workstation systemd[551]: ERROR: authentication failure for user root from 45.9.12.50
+Jul 20 06:56:36 workstation cron[7624]: WARN: retrying database connection (attempt 32)
+Jul 20 06:57:43 workstation NetworkManager[3825]: Reloading nginx configuration
+Jul 20 06:58:37 workstation dbus[1191]: Started Session 5 of user student.
+Jul 20 06:59:35 workstation kernel[1207]: WARN: retrying database connection (attempt 33)
+Jul 20 07:00:54 workstation cron[5101]: ERROR: database connection refused after 5 retries
+Jul 20 07:00:57 workstation NetworkManager[6266]: Mounted /boot/efi.
+Jul 20 07:01:39 workstation cron[6142]: Reloading nginx configuration
+Jul 20 07:02:17 workstation containerd[3592]: Started Session 6 of user student.
+Jul 20 07:02:38 workstation gnome-shell[982]: Finished Daily apt download activities.
+Jul 20 07:02:51 workstation dockerd[8970]: Accepted publickey for student from 10.0.0.101 port 5225
+Jul 20 07:03:57 workstation kernel[4955]: CPU0: Package temperature normal.
+Jul 20 07:05:20 workstation gnome-shell[8582]: WARN: high memory pressure detected
+Jul 20 07:06:50 workstation dockerd[4067]: WARN: low disk space on /var (12% remaining)
+Jul 20 07:07:06 workstation gnome-shell[7695]: CPU0: Package temperature normal.
+Jul 20 07:08:36 workstation cron[8316]: eth0: link becomes ready
+Jul 20 07:09:47 workstation sshd[8917]: WARN: retrying database connection (attempt 17)
+Jul 20 07:10:23 workstation cron[3662]: CPU0: Package temperature normal.
+Jul 20 07:10:35 workstation snapd[5007]: Starting cleanup of temporary directories...
+Jul 20 07:10:56 workstation dbus[4460]: user session opened for uid=1000
+Jul 20 07:11:16 workstation systemd[8203]: WARN: deprecated config key 'ssl_protocols' ignored
+Jul 20 07:12:45 workstation snapd[5065]: Finished Daily apt download activities.
+Jul 20 07:13:03 workstation containerd[3564]: Reached target Multi-User System.
+Jul 20 07:14:04 workstation sshd[8600]: eth0: link becomes ready
+Jul 20 07:14:33 workstation sshd[1779]: Mounted /boot/efi.
+Jul 20 07:14:52 workstation dockerd[8635]: Reached target Multi-User System.
+Jul 20 07:15:57 workstation gnome-shell[706]: eth0: link becomes ready
+Jul 20 07:16:18 workstation gnome-shell[5935]: Reached target Multi-User System.
+Jul 20 07:17:04 workstation bluetoothd[6825]: WARN: connection rate limit reached, throttling
+Jul 20 07:17:39 workstation dbus[1364]: Starting cleanup of temporary directories...
+Jul 20 07:18:17 workstation bluetoothd[1090]: Started Session 19 of user student.
+Jul 20 07:18:51 workstation NetworkManager[7447]: Time has been changed
+Jul 20 07:18:57 workstation udisksd[6854]: Mounted /boot/efi.
+Jul 20 07:19:06 workstation postgres[7031]: Accepted publickey for student from 10.0.0.126 port 5220
+Jul 20 07:20:19 workstation kernel[3097]: Reloading nginx configuration
+Jul 20 07:21:45 workstation NetworkManager[6955]: Finished Daily apt download activities.
+Jul 20 07:22:03 workstation kernel[2948]: WARN: high memory pressure detected
+Jul 20 07:23:03 workstation dbus[7672]: Mounted /boot/efi.
+Jul 20 07:23:28 workstation dbus[1792]: Reloading nginx configuration
+Jul 20 07:23:56 workstation systemd[7063]: user session opened for uid=1000
+Jul 20 07:24:33 workstation dbus[1316]: Starting cleanup of temporary directories...
+Jul 20 07:25:43 workstation nginx[3838]: WARN: connection rate limit reached, throttling
+Jul 20 07:26:41 workstation NetworkManager[657]: WARN: retrying database connection (attempt 31)
+Jul 20 07:27:46 workstation systemd[1498]: Mounted /boot/efi.
+Jul 20 07:28:20 workstation udisksd[2086]: Accepted publickey for student from 10.0.0.250 port 5221
+Jul 20 07:29:45 workstation bluetoothd[7792]: WARN: low disk space on /var (12% remaining)
+Jul 20 07:30:17 workstation dockerd[915]: Finished Daily apt download activities.
+Jul 20 07:31:27 workstation nginx[7466]: Reached target Multi-User System.
+Jul 20 07:32:37 workstation dockerd[3440]: Time has been changed
+Jul 20 07:33:48 workstation NetworkManager[7847]: Reloading nginx configuration
+Jul 20 07:34:21 workstation containerd[4347]: ERROR: disk write failed on /dev/vda1 (I/O error)
+Jul 20 07:34:48 workstation snapd[7181]: WARN: connection rate limit reached, throttling
+Jul 20 07:35:20 workstation snapd[858]: user session opened for uid=1000
+Jul 20 07:35:48 workstation systemd[5085]: Mounted /boot/efi.
+Jul 20 07:36:16 workstation NetworkManager[3477]: Time has been changed
+Jul 20 07:36:32 workstation dockerd[8422]: Time has been changed
+Jul 20 07:37:51 workstation kernel[6746]: ERROR: failed to bind port 8080: address already in use
+Jul 20 07:38:00 workstation postgres[1285]: eth0: link becomes ready
+Jul 20 07:38:13 workstation kernel[5694]: CPU0: Package temperature normal.
+Jul 20 07:38:20 workstation NetworkManager[6503]: Reloading nginx configuration
+Jul 20 07:38:23 workstation sshd[4884]: WARN: retrying database connection (attempt 8)
+Jul 20 07:39:14 workstation dbus[5357]: connection accepted (PID 5357)
+Jul 20 07:39:42 workstation dbus[7612]: Reloading nginx configuration
+Jul 20 07:40:16 workstation udisksd[6931]: ERROR: failed to bind port 8080: address already in use
+Jul 20 07:40:51 workstation cron[1329]: Reloading nginx configuration
+Jul 20 07:42:12 workstation systemd[4595]: user session opened for uid=1000
+Jul 20 07:42:53 workstation systemd[1370]: ERROR: database connection refused after 5 retries
+Jul 20 07:43:45 workstation udisksd[4413]: eth0: link becomes ready
+Jul 20 07:44:11 workstation systemd[5269]: Accepted publickey for student from 10.0.0.62 port 5225
+Jul 20 07:44:54 workstation snapd[6228]: Starting cleanup of temporary directories...
+Jul 20 07:45:47 workstation udisksd[2920]: Reached target Multi-User System.
+Jul 20 07:46:59 workstation dbus[2932]: Reached target Multi-User System.
+Jul 20 07:47:12 workstation cron[1879]: user session opened for uid=1000
+Jul 20 07:47:32 workstation gnome-shell[7851]: CPU0: Package temperature normal.
+Jul 20 07:49:00 workstation udisksd[2285]: Finished Daily apt download activities.
+Jul 20 07:49:37 workstation dbus[4462]: Time has been changed
+Jul 20 07:50:11 workstation cron[2812]: Starting cleanup of temporary directories...
+Jul 20 07:51:04 workstation NetworkManager[4329]: Time has been changed
+Jul 20 07:51:11 workstation sshd[373]: Time has been changed
+Jul 20 07:51:19 workstation NetworkManager[4115]: WARN: connection rate limit reached, throttling
+Jul 20 07:51:46 workstation sshd[6398]: Accepted publickey for student from 10.0.0.156 port 5224
+Jul 20 07:53:14 workstation systemd[2033]: user session opened for uid=1000
+Jul 20 07:53:21 workstation dbus[5870]: Time has been changed
+Jul 20 07:54:47 workstation cron[486]: connection accepted (PID 486)
+Jul 20 07:55:29 workstation sshd[3632]: ERROR: disk write failed on /dev/vda1 (I/O error)
+Jul 20 07:56:24 workstation sshd[6776]: Accepted publickey for student from 10.0.0.25 port 5222
+Jul 20 07:57:17 workstation postgres[4742]: Finished Daily apt download activities.
+Jul 20 07:57:59 workstation postgres[6152]: Started Session 24 of user student.
+Jul 20 07:58:52 workstation postgres[6935]: Started Session 28 of user student.
+Jul 20 07:59:49 workstation sshd[1782]: Reloading nginx configuration
+Jul 20 08:00:08 workstation systemd[1146]: CPU0: Package temperature normal.
+Jul 20 08:01:30 workstation dbus[8565]: Reloading nginx configuration
+Jul 20 08:01:54 workstation sshd[2082]: Time has been changed
+Jul 20 08:02:58 workstation dbus[1174]: CPU0: Package temperature normal.
+Jul 20 08:03:21 workstation nginx[3938]: Starting cleanup of temporary directories...
+Jul 20 08:03:47 workstation dockerd[3873]: ERROR: authentication failure for user root from 45.9.12.100
+Jul 20 08:04:05 workstation kernel[4347]: Time has been changed
+Jul 20 08:05:34 workstation systemd[5611]: WARN: high memory pressure detected
+Jul 20 08:07:00 workstation gnome-shell[5349]: connection accepted (PID 5349)
+Jul 20 08:08:00 workstation containerd[7481]: Started Session 40 of user student.
+Jul 20 08:08:33 workstation snapd[7808]: eth0: link becomes ready
+Jul 20 08:08:52 workstation dbus[7354]: eth0: link becomes ready
+Jul 20 08:09:00 workstation nginx[2434]: WARN: deprecated config key 'ssl_protocols' ignored
+Jul 20 08:10:07 workstation gnome-shell[2531]: ERROR: failed to bind port 8080: address already in use
+Jul 20 08:10:34 workstation kernel[8358]: Accepted publickey for student from 10.0.0.18 port 5225
+Jul 20 08:11:55 workstation udisksd[4432]: Starting cleanup of temporary directories...
+Jul 20 08:12:16 workstation NetworkManager[8528]: eth0: link becomes ready
+Jul 20 08:13:37 workstation containerd[4189]: Started Session 13 of user student.
+Jul 20 08:14:00 workstation nginx[4857]: connection accepted (PID 4857)
+Jul 20 08:14:17 workstation udisksd[8995]: ERROR: certificate expired for host api.internal
+Jul 20 08:15:31 workstation containerd[2013]: Mounted /boot/efi.
+Jul 20 08:16:07 workstation gnome-shell[6344]: Reloading nginx configuration
+Jul 20 08:17:06 workstation cron[3195]: Started Session 19 of user student.
+Jul 20 08:17:41 workstation NetworkManager[5422]: user session opened for uid=1000
+Jul 20 08:18:21 workstation dockerd[7381]: Reloading nginx configuration
+Jul 20 08:18:53 workstation dockerd[1046]: ERROR: failed to bind port 8080: address already in use
+Jul 20 08:19:09 workstation containerd[6151]: connection accepted (PID 6151)
+Jul 20 08:19:29 workstation cron[6300]: eth0: link becomes ready
+Jul 20 08:20:03 workstation postgres[2746]: Reached target Multi-User System.
+Jul 20 08:20:57 workstation udisksd[4629]: Started Session 36 of user student.
+Jul 20 08:22:16 workstation nginx[7570]: Mounted /boot/efi.
+Jul 20 08:22:19 workstation systemd[1308]: connection accepted (PID 1308)
+Jul 20 08:22:29 workstation udisksd[2018]: ERROR: authentication failure for user root from 45.9.12.38
+Jul 20 08:22:57 workstation containerd[8605]: connection accepted (PID 8605)
+Jul 20 08:23:39 workstation sshd[5219]: user session opened for uid=1000
+Jul 20 08:23:42 workstation gnome-shell[7454]: eth0: link becomes ready
+Jul 20 08:24:07 workstation cron[2024]: CPU0: Package temperature normal.
+Jul 20 08:24:43 workstation postgres[1160]: Mounted /boot/efi.
+Jul 20 08:25:19 workstation NetworkManager[3855]: WARN: high memory pressure detected
+Jul 20 08:25:52 workstation bluetoothd[3622]: user session opened for uid=1000
+Jul 20 08:26:37 workstation dockerd[4218]: CPU0: Package temperature normal.
+Jul 20 08:27:47 workstation postgres[404]: connection accepted (PID 404)
+Jul 20 08:28:17 workstation gnome-shell[1574]: Accepted publickey for student from 10.0.0.10 port 5220
+Jul 20 08:28:34 workstation sshd[2951]: Accepted publickey for student from 10.0.0.9 port 5220
+Jul 20 08:28:54 workstation postgres[998]: user session opened for uid=1000
+Jul 20 08:29:43 workstation cron[1380]: user session opened for uid=1000
+Jul 20 08:30:12 workstation cron[2134]: ERROR: certificate expired for host api.internal
+Jul 20 08:31:16 workstation sshd[2473]: WARN: connection rate limit reached, throttling
+Jul 20 08:32:13 workstation NetworkManager[642]: Finished Daily apt download activities.
+Jul 20 08:32:57 workstation udisksd[8553]: Finished Daily apt download activities.
+Jul 20 08:33:52 workstation systemd[7450]: Reached target Multi-User System.
+Jul 20 08:35:03 workstation dockerd[3848]: Reached target Multi-User System.
+Jul 20 08:35:27 workstation gnome-shell[321]: Finished Daily apt download activities.
+Jul 20 08:36:32 workstation sshd[8352]: Accepted publickey for student from 10.0.0.153 port 5225
+Jul 20 08:37:40 workstation NetworkManager[2903]: Time has been changed
+Jul 20 08:37:57 workstation nginx[1625]: user session opened for uid=1000
+Jul 20 08:39:20 workstation dbus[6126]: WARN: retrying database connection (attempt 6)
+Jul 20 08:40:10 workstation cron[5266]: Mounted /boot/efi.
+Jul 20 08:41:33 workstation cron[7851]: WARN: high memory pressure detected
+Jul 20 08:42:20 workstation dockerd[5652]: eth0: link becomes ready
+Jul 20 08:42:44 workstation snapd[7489]: Finished Daily apt download activities.
+Jul 20 08:43:29 workstation snapd[4198]: Finished Daily apt download activities.
+Jul 20 08:43:51 workstation postgres[2855]: user session opened for uid=1000
+Jul 20 08:44:38 workstation kernel[4170]: Time has been changed
+Jul 20 08:45:02 workstation nginx[1965]: Accepted publickey for student from 10.0.0.205 port 5224
+Jul 20 08:45:43 workstation gnome-shell[4786]: CPU0: Package temperature normal.
+Jul 20 08:46:35 workstation snapd[855]: ERROR: certificate expired for host api.internal
+Jul 20 08:47:42 workstation nginx[5153]: Accepted publickey for student from 10.0.0.156 port 5226
+Jul 20 08:47:45 workstation postgres[4269]: connection accepted (PID 4269)
+Jul 20 08:48:17 workstation nginx[4045]: CPU0: Package temperature normal.
+Jul 20 08:49:00 workstation NetworkManager[1903]: Time has been changed
+Jul 20 08:49:35 workstation bluetoothd[7239]: Started Session 40 of user student.
+Jul 20 08:50:44 workstation nginx[3299]: Reloading nginx configuration
+Jul 20 08:51:00 workstation systemd[4416]: Accepted publickey for student from 10.0.0.134 port 5225
+Jul 20 08:51:15 workstation bluetoothd[7783]: user session opened for uid=1000
+Jul 20 08:52:39 workstation udisksd[6360]: connection accepted (PID 6360)
+Jul 20 08:53:32 workstation containerd[2305]: Starting cleanup of temporary directories...
+Jul 20 08:54:07 workstation NetworkManager[6556]: Started Session 5 of user student.
+Jul 20 08:55:30 workstation postgres[6069]: Reached target Multi-User System.
+Jul 20 08:56:40 workstation cron[6721]: Accepted publickey for student from 10.0.0.239 port 5221
+Jul 20 08:58:04 workstation cron[7986]: user session opened for uid=1000
+Jul 20 08:58:52 workstation nginx[7071]: Finished Daily apt download activities.
+Jul 20 08:59:55 workstation dbus[4075]: connection accepted (PID 4075)
+Jul 20 09:00:59 workstation systemd[4907]: CPU0: Package temperature normal.
+Jul 20 09:02:04 workstation gnome-shell[1699]: Reloading nginx configuration
+Jul 20 09:02:56 workstation systemd[1697]: Reloading nginx configuration
+Jul 20 09:04:20 workstation dockerd[545]: Time has been changed
+Jul 20 09:04:55 workstation dockerd[1963]: Time has been changed
+Jul 20 09:05:42 workstation udisksd[2801]: connection accepted (PID 2801)
+Jul 20 09:07:02 workstation udisksd[1781]: Mounted /boot/efi.
+Jul 20 09:07:32 workstation containerd[1588]: eth0: link becomes ready
+Jul 20 09:08:08 workstation gnome-shell[4136]: eth0: link becomes ready
+Jul 20 09:09:12 workstation snapd[2666]: Time has been changed
+Jul 20 09:10:31 workstation bluetoothd[408]: Reloading nginx configuration
+Jul 20 09:11:37 workstation nginx[5163]: Reloading nginx configuration
+Jul 20 09:12:03 workstation nginx[6204]: Started Session 2 of user student.
+Jul 20 09:13:33 workstation postgres[5714]: Reached target Multi-User System.
+Jul 20 09:13:54 workstation systemd[3795]: CPU0: Package temperature normal.
+Jul 20 09:15:21 workstation dbus[5892]: Mounted /boot/efi.
+Jul 20 09:16:00 workstation gnome-shell[5902]: Mounted /boot/efi.
+Jul 20 09:16:40 workstation dbus[8389]: Mounted /boot/efi.
+Jul 20 09:17:27 workstation cron[8364]: Reloading nginx configuration
+Jul 20 09:17:46 workstation dockerd[1734]: Started Session 26 of user student.
+Jul 20 09:18:40 workstation containerd[1114]: Reached target Multi-User System.
+Jul 20 09:19:43 workstation dockerd[1285]: Mounted /boot/efi.
+Jul 20 09:20:04 workstation nginx[1659]: CPU0: Package temperature normal.
+Jul 20 09:20:19 workstation nginx[3270]: connection accepted (PID 3270)
+Jul 20 09:21:09 workstation bluetoothd[2572]: Mounted /boot/efi.
+Jul 20 09:21:35 workstation gnome-shell[861]: connection accepted (PID 861)
+Jul 20 09:21:44 workstation snapd[8854]: ERROR: failed to bind port 8080: address already in use
+Jul 20 09:22:44 workstation sshd[531]: Starting cleanup of temporary directories...
+Jul 20 09:23:47 workstation udisksd[7057]: Reached target Multi-User System.
+Jul 20 09:25:10 workstation systemd[7295]: ERROR: segfault in module render at address 0x7ffde
+Jul 20 09:25:40 workstation bluetoothd[2288]: WARN: low disk space on /var (12% remaining)
+Jul 20 09:26:14 workstation snapd[3370]: Reloading nginx configuration
+Jul 20 09:26:54 workstation nginx[8460]: Finished Daily apt download activities.
+Jul 20 09:26:58 workstation systemd[541]: CPU0: Package temperature normal.
+Jul 20 09:27:40 workstation NetworkManager[3019]: eth0: link becomes ready
+Jul 20 09:28:30 workstation dockerd[7488]: Accepted publickey for student from 10.0.0.249 port 5221
+Jul 20 09:29:19 workstation nginx[2987]: connection accepted (PID 2987)
+Jul 20 09:29:56 workstation udisksd[5770]: Started Session 40 of user student.
+Jul 20 09:30:41 workstation bluetoothd[553]: Starting cleanup of temporary directories...
+Jul 20 09:31:15 workstation gnome-shell[6646]: Starting cleanup of temporary directories...
+Jul 20 09:31:54 workstation postgres[327]: Finished Daily apt download activities.
+Jul 20 09:32:02 workstation NetworkManager[2604]: Starting cleanup of temporary directories...
+Jul 20 09:33:32 workstation udisksd[8491]: Reached target Multi-User System.
+Jul 20 09:34:23 workstation cron[4134]: Started Session 26 of user student.
+Jul 20 09:34:58 workstation dockerd[453]: eth0: link becomes ready
+Jul 20 09:35:46 workstation udisksd[1326]: Starting cleanup of temporary directories...
+Jul 20 09:36:55 workstation dbus[8108]: Time has been changed
+Jul 20 09:37:09 workstation kernel[5048]: Starting cleanup of temporary directories...
+Jul 20 09:37:31 workstation cron[1030]: eth0: link becomes ready
+Jul 20 09:38:21 workstation nginx[7892]: Accepted publickey for student from 10.0.0.154 port 5220
+Jul 20 09:39:08 workstation NetworkManager[8810]: Reached target Multi-User System.
+Jul 20 09:40:13 workstation dockerd[3799]: Finished Daily apt download activities.
+Jul 20 09:41:31 workstation bluetoothd[2444]: Started Session 22 of user student.
+Jul 20 09:42:22 workstation sshd[750]: ERROR: authentication failure for user root from 45.9.12.224
+Jul 20 09:43:27 workstation bluetoothd[1351]: CPU0: Package temperature normal.
+Jul 20 09:43:41 workstation NetworkManager[5521]: CPU0: Package temperature normal.
+Jul 20 09:44:34 workstation kernel[7645]: Reloading nginx configuration
+Jul 20 09:44:59 workstation systemd[4492]: Started Session 36 of user student.
+Jul 20 09:45:08 workstation NetworkManager[8710]: CPU0: Package temperature normal.
+Jul 20 09:45:29 workstation dbus[394]: CPU0: Package temperature normal.
+Jul 20 09:46:28 workstation udisksd[2027]: Reloading nginx configuration
+Jul 20 09:47:18 workstation snapd[6520]: Time has been changed
+Jul 20 09:48:20 workstation postgres[3496]: Accepted publickey for student from 10.0.0.21 port 5229
+Jul 20 09:49:10 workstation postgres[2589]: Reached target Multi-User System.
+Jul 20 09:50:33 workstation sshd[7711]: Reloading nginx configuration
+Jul 20 09:51:56 workstation dbus[2639]: user session opened for uid=1000
+Jul 20 09:53:09 workstation kernel[7492]: Finished Daily apt download activities.
+Jul 20 09:53:31 workstation systemd[4741]: Finished Daily apt download activities.
+Jul 20 09:54:07 workstation snapd[2089]: eth0: link becomes ready
+Jul 20 09:54:17 workstation nginx[3759]: Finished Daily apt download activities.
+Jul 20 09:55:06 workstation gnome-shell[4584]: Time has been changed
+Jul 20 09:56:02 workstation kernel[1241]: Finished Daily apt download activities.
+Jul 20 09:57:01 workstation udisksd[8619]: Accepted publickey for student from 10.0.0.2 port 5228
+Jul 20 09:57:40 workstation kernel[6199]: connection accepted (PID 6199)
+Jul 20 09:58:06 workstation kernel[3251]: Time has been changed
+Jul 20 09:58:19 workstation bluetoothd[1732]: user session opened for uid=1000
+Jul 20 09:58:44 workstation cron[2545]: user session opened for uid=1000
+Jul 20 09:59:12 workstation systemd[1376]: Mounted /boot/efi.
+Jul 20 10:00:21 workstation udisksd[5995]: CPU0: Package temperature normal.
+Jul 20 10:01:16 workstation udisksd[8108]: WARN: deprecated config key 'ssl_protocols' ignored
+Jul 20 10:02:05 workstation systemd[2978]: Starting cleanup of temporary directories...
+Jul 20 10:02:53 workstation containerd[7603]: Reached target Multi-User System.
+Jul 20 10:03:37 workstation udisksd[6548]: Started Session 19 of user student.
+Jul 20 10:04:43 workstation snapd[8710]: ERROR: certificate expired for host api.internal
+Jul 20 10:05:17 workstation sshd[3965]: Accepted publickey for student from 10.0.0.81 port 5224
+Jul 20 10:06:31 workstation bluetoothd[792]: ERROR: segfault in module render at address 0x7ffde
+Jul 20 10:07:50 workstation nginx[7901]: user session opened for uid=1000
+Jul 20 10:08:05 workstation postgres[3232]: ERROR: failed to bind port 8080: address already in use
+Jul 20 10:09:12 workstation udisksd[4881]: WARN: low disk space on /var (12% remaining)
+Jul 20 10:10:24 workstation dockerd[4026]: Accepted publickey for student from 10.0.0.120 port 5226
+Jul 20 10:10:48 workstation bluetoothd[603]: connection accepted (PID 603)
+Jul 20 10:11:58 workstation systemd[6782]: Started Session 24 of user student.
+Jul 20 10:12:31 workstation bluetoothd[5789]: Starting cleanup of temporary directories...
+Jul 20 10:13:45 workstation systemd[5622]: CPU0: Package temperature normal.
+Jul 20 10:15:12 workstation nginx[489]: Mounted /boot/efi.
+Jul 20 10:16:10 workstation cron[8570]: Time has been changed
+Jul 20 10:17:11 workstation nginx[1066]: Started Session 3 of user student.
+Jul 20 10:17:48 workstation nginx[4779]: Started Session 40 of user student.
+Jul 20 10:18:06 workstation containerd[523]: Started Session 19 of user student.
+Jul 20 10:18:53 workstation nginx[3035]: WARN: high memory pressure detected
+Jul 20 10:19:06 workstation snapd[2731]: Mounted /boot/efi.
+Jul 20 10:20:01 workstation dockerd[5023]: user session opened for uid=1000
+Jul 20 10:20:40 workstation bluetoothd[7740]: Starting cleanup of temporary directories...
+Jul 20 10:21:08 workstation containerd[6309]: Mounted /boot/efi.
+Jul 20 10:22:11 workstation bluetoothd[5387]: ERROR: out of memory: killed process 5387 (worker)
+Jul 20 10:23:23 workstation gnome-shell[6795]: ERROR: out of memory: killed process 6795 (worker)
+Jul 20 10:24:07 workstation containerd[5632]: Finished Daily apt download activities.
+Jul 20 10:24:12 workstation kernel[1394]: Reloading nginx configuration
+Jul 20 10:25:21 workstation gnome-shell[7507]: Reached target Multi-User System.
+Jul 20 10:26:17 workstation dbus[6074]: Time has been changed
+Jul 20 10:27:26 workstation sshd[8086]: CPU0: Package temperature normal.
+Jul 20 10:27:29 workstation gnome-shell[2224]: Starting cleanup of temporary directories...
+Jul 20 10:28:51 workstation dockerd[2119]: eth0: link becomes ready
+Jul 20 10:29:31 workstation dbus[6700]: Starting cleanup of temporary directories...
+Jul 20 10:29:34 workstation udisksd[8484]: Finished Daily apt download activities.
+Jul 20 10:29:55 workstation gnome-shell[6476]: Reached target Multi-User System.
+Jul 20 10:30:29 workstation dbus[3647]: Started Session 2 of user student.
+Jul 20 10:31:44 workstation snapd[5212]: Finished Daily apt download activities.
+Jul 20 10:32:53 workstation bluetoothd[8774]: connection accepted (PID 8774)
+Jul 20 10:33:01 workstation dockerd[6052]: Started Session 5 of user student.
+Jul 20 10:33:16 workstation gnome-shell[6434]: CPU0: Package temperature normal.
+Jul 20 10:33:38 workstation cron[7201]: eth0: link becomes ready
+Jul 20 10:34:24 workstation postgres[8985]: Reached target Multi-User System.
+Jul 20 10:35:13 workstation sshd[5389]: Reached target Multi-User System.
+Jul 20 10:36:21 workstation gnome-shell[2862]: Mounted /boot/efi.
+Jul 20 10:37:16 workstation kernel[1285]: Starting cleanup of temporary directories...
+Jul 20 10:38:39 workstation nginx[993]: Started Session 1 of user student.
+Jul 20 10:38:42 workstation NetworkManager[6813]: Starting cleanup of temporary directories...
+Jul 20 10:39:10 workstation kernel[8456]: Starting cleanup of temporary directories...
+Jul 20 10:40:18 workstation kernel[3552]: Reached target Multi-User System.
+Jul 20 10:41:26 workstation sshd[775]: WARN: connection rate limit reached, throttling
+Jul 20 10:42:47 workstation gnome-shell[1317]: CPU0: Package temperature normal.
+Jul 20 10:43:20 workstation dbus[4812]: Finished Daily apt download activities.
+Jul 20 10:43:31 workstation dbus[3440]: connection accepted (PID 3440)
+Jul 20 10:44:24 workstation dockerd[1019]: Starting cleanup of temporary directories...
+Jul 20 10:44:32 workstation kernel[3143]: eth0: link becomes ready
+Jul 20 10:45:07 workstation snapd[1406]: connection accepted (PID 1406)
+Jul 20 10:45:49 workstation gnome-shell[8236]: ERROR: certificate expired for host api.internal
+Jul 20 10:46:13 workstation dbus[6509]: Finished Daily apt download activities.
+Jul 20 10:46:30 workstation dbus[6617]: CPU0: Package temperature normal.
+Jul 20 10:47:27 workstation bluetoothd[6054]: connection accepted (PID 6054)
+Jul 20 10:48:14 workstation cron[7436]: ERROR: segfault in module render at address 0x7ffde
+Jul 20 10:48:47 workstation postgres[2427]: WARN: deprecated config key 'ssl_protocols' ignored
+Jul 20 10:50:01 workstation snapd[7952]: Time has been changed
+Jul 20 10:50:31 workstation postgres[6938]: Starting cleanup of temporary directories...
+Jul 20 10:51:38 workstation cron[4023]: CPU0: Package temperature normal.
+Jul 20 10:52:57 workstation snapd[6329]: connection accepted (PID 6329)
+Jul 20 10:53:16 workstation bluetoothd[2311]: Reached target Multi-User System.
+Jul 20 10:54:08 workstation systemd[2676]: connection accepted (PID 2676)
+Jul 20 10:54:40 workstation dbus[3385]: Reached target Multi-User System.
+Jul 20 10:55:47 workstation udisksd[5165]: user session opened for uid=1000
+Jul 20 10:56:26 workstation kernel[6836]: connection accepted (PID 6836)
+Jul 20 10:57:04 workstation kernel[784]: CPU0: Package temperature normal.
+Jul 20 10:57:10 workstation nginx[7878]: connection accepted (PID 7878)
+Jul 20 10:57:36 workstation NetworkManager[2187]: Starting cleanup of temporary directories...
+Jul 20 10:58:30 workstation systemd[2954]: Finished Daily apt download activities.
+Jul 20 10:59:43 workstation NetworkManager[3243]: Time has been changed
+Jul 20 11:00:18 workstation gnome-shell[6018]: Reached target Multi-User System.
+Jul 20 11:01:35 workstation dockerd[1075]: CPU0: Package temperature normal.
+Jul 20 11:02:04 workstation udisksd[5963]: Reached target Multi-User System.
+Jul 20 11:03:25 workstation bluetoothd[3917]: Reached target Multi-User System.
+Jul 20 11:04:24 workstation dbus[8542]: CPU0: Package temperature normal.
+Jul 20 11:05:53 workstation postgres[3674]: Mounted /boot/efi.
+Jul 20 11:06:01 workstation postgres[4579]: Accepted publickey for student from 10.0.0.141 port 5224
+Jul 20 11:06:35 workstation systemd[3053]: connection accepted (PID 3053)
+Jul 20 11:06:55 workstation kernel[8269]: Time has been changed
+Jul 20 11:07:54 workstation kernel[6058]: Accepted publickey for student from 10.0.0.152 port 5229
+Jul 20 11:08:27 workstation dbus[2232]: Accepted publickey for student from 10.0.0.155 port 5227
+Jul 20 11:09:21 workstation bluetoothd[3680]: WARN: deprecated config key 'ssl_protocols' ignored
+Jul 20 11:09:50 workstation systemd[1288]: Finished Daily apt download activities.
+Jul 20 11:10:50 workstation sshd[2943]: eth0: link becomes ready
+Jul 20 11:11:14 workstation containerd[1476]: ERROR: disk write failed on /dev/vda1 (I/O error)
+Jul 20 11:12:29 workstation NetworkManager[2082]: connection accepted (PID 2082)
+Jul 20 11:13:13 workstation systemd[6186]: CPU0: Package temperature normal.
+Jul 20 11:14:39 workstation postgres[4419]: Reached target Multi-User System.
+Jul 20 11:14:45 workstation udisksd[6776]: Finished Daily apt download activities.
+Jul 20 11:16:15 workstation kernel[1974]: Finished Daily apt download activities.
+Jul 20 11:16:41 workstation nginx[6136]: Reloading nginx configuration
+Jul 20 11:17:16 workstation cron[1245]: ERROR: authentication failure for user root from 45.9.12.233
+Jul 20 11:17:46 workstation snapd[7230]: Accepted publickey for student from 10.0.0.156 port 5229
+Jul 20 11:19:09 workstation sshd[2624]: Accepted publickey for student from 10.0.0.115 port 5226
+Jul 20 11:19:23 workstation systemd[7500]: Time has been changed
