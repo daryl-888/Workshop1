@@ -56,8 +56,15 @@ To go **back up** one level to where you started:
 $ cd ..
 ```
 
-`..` always means "the folder above this one." `cd` with nothing goes to your home
-folder — handy if you ever feel lost.
+`..` always means "the folder above this one." In this workshop, `cd` with nothing
+brings you back to your **workshop base** (not your computer's home folder) — handy
+if you ever feel lost. Two more lifesavers you can type from *anywhere*:
+
+- `base` — jump back to the workshop's main folder
+- `cc` — jump straight to your command center (once you've made it in Step 2)
+
+And don't worry about getting lost: you can't accidentally `cd` your way *out* of
+the workshop — if you try, it gently keeps you inside.
 
 ## Your mission for this step
 

@@ -69,6 +69,17 @@ bash check.sh
 
 It tells you, in plain language, what's done and what's next.
 
+## Feeling lost?
+
+You can't `cd` your way out of the workshop — if you try to leave, it gently keeps
+you inside. And from *anywhere*, two commands snap you back:
+
+- `base` — the workshop's main folder
+- `cc` — your command center
+
+(These load automatically in Codespaces. Open a **new terminal** after setup so
+they're active.)
+
 ---
 
 New to all this? Read **[What's a terminal?](docs/00-what-is-a-terminal.md)** first (2 min).
@@ -81,6 +92,7 @@ New to all this? Read **[What's a terminal?](docs/00-what-is-a-terminal.md)** fi
 - `starter/system.log` — sample log data students copy into their tool
 - `check.sh` — self-check script (run `bash check.sh` anytime)
 - `celebrate.sh` — the finale reward, unlocked once the dashboard runs
+- `workshop-shell.sh` — guard rails that keep you from getting lost (auto-loads in Codespaces)
 - `slides/` — the projector deck (`.pptx`) and the script that generates it
 - `FACILITATOR.md` — the "why": pedagogy, timing, and common stumbles (facilitator-only)
 - `.devcontainer/` — the Codespaces setup (Ubuntu + required tools)

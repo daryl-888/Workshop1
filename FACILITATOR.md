@@ -115,6 +115,27 @@ Codespaces, but steer the room to Codespaces so everyone's on the same setup.
 If you're behind, Step 6 (processes) is the safest to demo-only rather than have
 everyone do it — the payoff already happened at Step 5.
 
+## Guard rails (why nobody gets lost)
+
+The single most common way a beginner derails is a stray `cd` — a bare `cd` jumps
+to the home folder, or one `cd ..` too many climbs above the repo. From there,
+every relative command and `check.sh` breaks, and they don't know why.
+
+`workshop-shell.sh` prevents this. It loads automatically in Codespaces (the
+`.devcontainer` adds a line to `~/.bashrc`) and:
+
+- **clamps `cd`** so it can't go above the workshop folder (a friendly message
+  appears if they try),
+- makes a **bare `cd`** return to the workshop base instead of `~`,
+- adds **`base`** (main folder) and **`cc`** (command-center) — jump back from
+  anywhere.
+
+It only affects the *interactive* shell, so scripts like `check.sh` and
+`celebrate.sh` are untouched. To turn it off for a shell (e.g. you need to leave
+the folder): `unset -f cd cc base`, or prefix a single command with `builtin`
+(`builtin cd /somewhere`). Students open a **new terminal** after Codespaces
+finishes setup so the rails are active.
+
 ## Common stumbles & quick fixes
 
 - **Stuck in vim** → "Press `Esc`, type `:q!`, Enter. Reopen and try again."
