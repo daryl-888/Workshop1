@@ -121,5 +121,10 @@ everyone do it — the payoff already happened at Step 5.
 - **`Permission denied` at Step 5** → that's expected; it's the `chmod +x` lesson.
 - **`grep`/`cp` says "No such file"** → they're in the wrong folder. `pwd` to
   orient, `cd` to fix. Most errors this hour are just "wrong folder."
+- **Checkmarks won't turn green even though the script looks right** → they edited
+  `dashboard.sh` in the *main* folder instead of inside `command-center`, so
+  `check.sh` is reading the empty one. `check.sh` now detects this and prints a
+  "move it" hint; the fix is `mv dashboard.sh command-center/`. Each build step
+  now starts with `cd command-center` to prevent it.
 - **Typos in the script** → `check.sh` will still flag structure; for runtime
   errors, a stray quote or capital letter is the usual culprit.

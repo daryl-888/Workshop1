@@ -31,9 +31,13 @@ saving, and start the file again. Nothing is lost but the current edit.
 
 ## Now write the dashboard
 
-Open the file:
+Your `dashboard.sh` lives **inside** `command-center`. After the last check you're
+back in the main folder — so step into your command center first, *then* open the
+file. (If you edit `dashboard.sh` from the main folder by mistake, the checker
+won't see your work.)
 
 ```
+$ cd command-center
 $ vim dashboard.sh
 ```
 

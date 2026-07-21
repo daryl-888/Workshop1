@@ -80,9 +80,16 @@ New to all this? Read **[What's a terminal?](docs/00-what-is-a-terminal.md)** fi
 - `docs/` — the jargon-free intro and the 6 guided build steps, plus the vim cheat-sheet
 - `starter/system.log` — sample log data students copy into their tool
 - `check.sh` — self-check script (run `bash check.sh` anytime)
-- `slides/` — the projector deck (`.pptx`)
+- `celebrate.sh` — the finale reward, unlocked once the dashboard runs
+- `slides/` — the projector deck (`.pptx`) and the script that generates it
+- `FACILITATOR.md` — the "why": pedagogy, timing, and common stumbles (facilitator-only)
 - `.devcontainer/` — the Codespaces setup (Ubuntu + required tools)
 
+## For facilitators
+
+Read **[FACILITATOR.md](FACILITATOR.md)** before running the session — it covers
+the reasoning, a minute-by-minute timing table, and quick fixes for the usual
+beginner stumbles.
 
 ## License
 

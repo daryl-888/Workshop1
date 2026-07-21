@@ -7,8 +7,14 @@ Your `data/system.log` is a fake system log — hundreds of lines a real machine
 might write. Buried in it are `ERROR` lines. A good command center should surface
 those. First you'll practice on the command line, then add it to the script.
 
-> Be inside `command-center` for this (run `pwd`; it should end in
-> `command-center`). If not: `cd command-center`.
+After the last check you're in the main folder. Step into your command center
+first — everything below reads `data/system.log`, which lives in there:
+
+```
+$ cd command-center
+```
+
+(`pwd` should now end in `command-center`.)
 
 ## Reading a whole file: `cat`
 

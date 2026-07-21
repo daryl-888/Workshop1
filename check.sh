@@ -58,6 +58,14 @@ else
   [ -z "$next" ] && next="Step 2 — File setup (docs/02-file-ops.md)"
 fi
 
+# --- Safety net: caught editing dashboard.sh in the WRONG folder? ---
+# A very common mix-up: opening vim from the main folder instead of from inside
+# command-center, so the script gets written one level too high. Spot it and say so.
+if [ -s "$ROOT/dashboard.sh" ] && [ ! -s "$CC/dashboard.sh" ]; then
+  hint "Found a dashboard.sh in the MAIN folder — it belongs INSIDE command-center."
+  hint "Move it there:  mv dashboard.sh command-center/"
+fi
+
 # --- Step 3b: it actually reads system info ---
 if grep -Eq 'uptime|df |free ' "$CC/dashboard.sh" 2>/dev/null; then
   green "Dashboard reads system info (uptime/disk/memory)"
@@ -101,7 +109,8 @@ if [ "$done_count" -eq "$total" ]; then
     echo
     sed 's/^/      /' /tmp/_dash_out
     echo
-    echo "   You did it. On to the next workshop — same skills, on a GPU."
+    echo "   You did it. One thing left — claim your reward:"
+    echo "      ./celebrate.sh"
   else
     echo
     echo "   Almost! Everything's in place but it hit a snag when running."

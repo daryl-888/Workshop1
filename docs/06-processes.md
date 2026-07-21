@@ -7,7 +7,11 @@ A real command center doesn't run once — it keeps an eye on things. Right now,
 when you run `./dashboard.sh` it prints once and hands control back. Let's have it
 refresh on a loop, running in the **background** so you keep using the terminal.
 
-> Be inside `command-center` (`cd command-center` if needed).
+After the last check you're in the main folder. Step into your command center:
+
+```
+$ cd command-center
+```
 
 ## Start a background refresh loop
 
@@ -82,6 +86,16 @@ If everything passes — you're done. Open **[the finish line](../README.md)** a
 read the teaser below.
 
 ---
+
+## One last command — your reward
+
+You've earned it. Run the finale:
+
+```
+$ ./celebrate.sh
+```
+
+(It only unlocks once your dashboard actually runs — so it's proof you made it.)
 
 ## 🎉 You built a real tool from an empty terminal.
 
