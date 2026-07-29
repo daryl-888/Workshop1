@@ -22,7 +22,7 @@ You do **not** need to install anything or use your own computer's terminal.
 We use **GitHub Codespaces** — a full Linux computer that runs in your browser.
 
 1. Go to this repository on GitHub.
-2. Click the green **`< > Code`** button.
+2. Click the green **`template`** button.
 3. Choose the **Codespaces** tab → **Create codespace on main**.
 4. Wait ~30 seconds. A code editor opens in your browser with a **terminal
    panel** at the bottom. That black panel is where you'll live today.
