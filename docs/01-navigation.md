@@ -14,7 +14,8 @@ folder at a time. These three commands are how you look around and move.
 $ pwd
 ```
 
-You'll see a path like `/workspaces/workshop-1`. That's your current location.
+You'll see a path like `/workspaces/Workshop1` (Codespaces names the folder after
+this repo). That's your current location.
 
 ## `ls` — "what's here?"
 
@@ -68,11 +69,11 @@ the workshop — if you try, it gently keeps you inside.
 
 ## Your mission for this step
 
-Make sure you're back in the **main** workshop folder (the one with `README.md`):
+Make sure you're back in the **main** workshop folder (the one with `README.md`).
+A bare `cd` always lands you there:
 
 ```
 $ cd
-$ cd workshop-1     # or whatever the folder is named; use ls + cd to find it
 $ ls
 ```
 
