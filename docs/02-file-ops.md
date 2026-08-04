@@ -111,4 +111,6 @@ $ cd ..            # back to the main folder where check.sh lives
 $ bash check.sh
 ```
 
+**Pairing up?** Swap roles now, before you open the next step.
+
 Then open **[Step 3 — Writing the script](03-vim-editing.md)**.

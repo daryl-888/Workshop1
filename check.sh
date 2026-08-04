@@ -13,6 +13,7 @@ CC="$ROOT/command-center"
 green() { printf "  \033[0;32m✓\033[0m %s\n" "$1"; }
 red()   { printf "  \033[0;31m✗\033[0m %s\n" "$1"; }
 hint()  { printf "      \033[0;33m↳ %s\033[0m\n" "$1"; }
+bonus() { printf "  \033[0;36m→\033[0m %s\n" "$1"; }
 
 done_count=0
 total=6
@@ -101,6 +102,16 @@ echo "--------------------------------------------------"
 echo "   Progress: $done_count / $total steps complete"
 echo "--------------------------------------------------"
 
+# --- Bonus (Step 7, doesn't count toward the 6 and never blocks anything) ---
+if git -C "$ROOT" rev-parse --git-dir >/dev/null 2>&1; then
+  echo
+  if git -C "$ROOT" log --oneline -- command-center 2>/dev/null | grep -q .; then
+    bonus "Bonus — Step 7: command-center is committed to git"
+  else
+    bonus "Bonus — Step 7: not saved yet — see docs/07-git-basics.md"
+  fi
+fi
+
 # Bonus: if fully built, actually run it and show a preview.
 if [ "$done_count" -eq "$total" ]; then
   if ( cd "$CC" && ./dashboard.sh >/tmp/_dash_out 2>/dev/null ) && grep -q "COMMAND CENTER" /tmp/_dash_out; then
@@ -109,8 +120,9 @@ if [ "$done_count" -eq "$total" ]; then
     echo
     sed 's/^/      /' /tmp/_dash_out
     echo
-    echo "   You did it. One thing left — claim your reward:"
-    echo "      ./celebrate.sh"
+    echo "   You did it. Two things left, in whichever order you like:"
+    echo "      - Save your work:    docs/07-git-basics.md"
+    echo "      - Claim your reward: ./celebrate.sh"
   else
     echo
     echo "   Almost! Everything's in place but it hit a snag when running."

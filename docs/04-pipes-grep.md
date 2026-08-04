@@ -116,4 +116,6 @@ $ cd ..
 $ bash check.sh
 ```
 
+**Pairing up?** Swap roles now, before you open the next step.
+
 Then open **[Step 5 — Make it run](05-permissions.md)**.

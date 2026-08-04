@@ -46,6 +46,13 @@ a clean difficulty ramp:
   turns a confusing gotcha into the most satisfying 30 seconds of the hour.
 - **Processes come last** because they're the most abstract. By then students are
   fluent enough with the terminal to handle "running in the background."
+- **Git (Step 7) comes after everything else, not first.** Teaching git before
+  students have anything of their own to save is abstract and forgettable.
+  Teaching it once `command-center/` exists and matters to them turns `git add` /
+  `commit` / `push` into "protect the thing I just built" instead of trivia. It
+  also matters beyond today: every future workshop in this series lives in git,
+  so this is the one command set that pays off immediately *and* every session
+  after this one.
 
 ## Vim: deliberately minimal
 
@@ -99,21 +106,24 @@ Codespaces, but steer the room to Codespaces so everyone's on the same setup.
    runs and `.devcontainer` builds cleanly.
 3. Have the repo URL and the "Code → Codespaces → Create" click-path on a slide.
 
-## Timing (rough, for 60 minutes)
+## Timing (rough, ~66 minutes — see trim guidance below if your slot is 60)
 
 | Segment | Time |
 |---|---|
 | Intro + open Codespaces + "what's a terminal" | 8 min |
 | Step 1 Navigation | 6 min |
-| Step 2 File setup | 8 min |
+| Step 2 File setup (includes a real path-error to diagnose) | 8 min |
 | Step 3 Vim + write script | 14 min (the crunch point) |
-| Step 4 Pipes/grep + extend script | 10 min |
+| Step 4 Pipes/grep + extend script (includes the case-sensitivity gotcha) | 11 min |
 | Step 5 chmod + run (payoff) | 6 min |
 | Step 6 Processes | 6 min |
+| Step 7 git add/commit/push | 5 min |
 | Teaser + wrap | 2 min |
 
-If you're behind, Step 6 (processes) is the safest to demo-only rather than have
-everyone do it — the payoff already happened at Step 5.
+If you're behind, trim in this order: **Step 7 first** (it's explicitly framed as
+quick and safe to assign as "do this after the session if you want to keep your
+work"), then **Step 6** (demo-only rather than have everyone do it — the payoff
+already happened at Step 5).
 
 ## Guard rails (why nobody gets lost)
 
@@ -135,6 +145,23 @@ It only affects the *interactive* shell, so scripts like `check.sh` and
 the folder): `unset -f cd cc base`, or prefix a single command with `builtin`
 (`builtin cd /somewhere`). Students open a **new terminal** after Codespaces
 finishes setup so the rails are active.
+
+## Pairing (optional, in-person only)
+
+The docs now suggest a driver/navigator swap at every ✅ checkpoint (README has
+the short version students see). It's opt-in and self-serve — you don't need to
+run it, just know it's there:
+
+- **Only suggest it for in-person sessions.** Remote/solo students should ignore
+  it entirely; nothing about the steps changes if they do.
+- **Odd number of students?** A group of three works fine — just have two people
+  share the driver role within a pair, or rotate a third "reviewer" through.
+- **Don't enforce the swap.** Some pairs will naturally ignore the prompt and
+  that's fine — it's there to unstick pairs where one person has quietly checked
+  out, not to police everyone.
+- The swap cadence rides on the same six ✅ checkpoints `check.sh` already
+  creates, so it costs you nothing extra to announce — "checkpoint's a good spot
+  to swap" is the entire facilitation overhead.
 
 ## Common stumbles & quick fixes
 
