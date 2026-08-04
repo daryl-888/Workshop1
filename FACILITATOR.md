@@ -138,6 +138,14 @@ finishes setup so the rails are active.
 
 ## Common stumbles & quick fixes
 
+- **Step 2: `cp` says "No such file or directory"** → that's intentional now. The
+  doc has students try `cp starter/system.log data/` from inside `command-center`
+  first, hit the error, then diagnose with `pwd`/`ls ..` before the doc shows the
+  `../` fix. Let them sit with it for a moment rather than jumping in — the
+  diagnosis is the lesson.
+- **Step 4: `grep "error"` only finds 3 lines, not 29** → also intentional. The
+  doc has students hit this case-sensitivity gotcha on purpose (real log, real
+  numbers) before introducing `-i`. Don't pre-empt it.
 - **Stuck in vim** → "Press `Esc`, type `:q!`, Enter. Reopen and try again."
 - **`Permission denied` at Step 5** → that's expected; it's the `chmod +x` lesson.
 - **`grep`/`cp` says "No such file"** → they're in the wrong folder. `pwd` to

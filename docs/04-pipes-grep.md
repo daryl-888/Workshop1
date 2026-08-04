@@ -26,18 +26,13 @@ That dumps the entire file — too much to eyeball. We need to *filter* it.
 
 ## `grep` — find lines that match
 
-`grep` prints only the lines containing a word you give it:
+`grep` prints only the lines containing a word you give it. Try it:
 
 ```
-$ grep "ERROR" data/system.log
+$ grep "error" data/system.log
 ```
 
-Now you see only the error lines. Case doesn't always match, so `-i` makes it
-ignore capitalization (matches ERROR, error, Error):
-
-```
-$ grep -i "error" data/system.log
-```
+You'll see 3 lines print. Looks like it worked — hang onto that number.
 
 ## The pipe `|` — send one command's output into another
 
@@ -45,16 +40,38 @@ The pipe `|` is the terminal's superpower: it takes the output of the command on
 the left and feeds it as input to the command on the right. Chain small tools into
 something bigger.
 
-`wc -l` counts lines. Combine them to **count** the errors:
+`wc -l` counts lines. Combine them to **count** how many that last search actually
+found:
+
+```
+$ grep "error" data/system.log | wc -l
+```
+
+`3`. For an hour of logs from a real machine, that's suspiciously quiet. Sanity-check
+it:
 
 ```
 $ grep -i "error" data/system.log | wc -l
 ```
 
-Read it as: "find the error lines, then count them." That number is your alert
-count — no manual counting.
+`29`. Same search, almost ten times the result. `grep` is case-sensitive by
+default, and every real error in this log is written `ERROR:` — all caps. Your
+first search only "worked" because 3 unrelated lines happen to contain the
+lowercase word "error" inside the phrase `(I/O error)`. It printed output and
+looked successful while silently missing 26 real alerts. This is the single most
+common `grep` gotcha in the real world: a command that runs without complaining
+isn't the same as a command that found the right thing.
 
-Show just the most recent error with `tail -n 1` ("last 1 line"):
+`-i` makes the match ignore capitalization (matches ERROR, error, and Error
+alike) — use it from here on:
+
+```
+$ grep -i "error" data/system.log
+```
+
+Now you see every real error line.
+
+Show just the most recent one with `tail -n 1` ("last 1 line"):
 
 ```
 $ grep -i "error" data/system.log | tail -n 1
@@ -73,19 +90,21 @@ the last line. Press `o` (lowercase) — this opens a **new line below** and dro
 you straight into INSERT mode. Type this:
 
 ```bash
-echo "LOG ALERTS:"
+YELLOW='\033[0;33m'; GREEN='\033[0;32m'
+echo -e "${YELLOW}LOG ALERTS:${NC}"
 echo -n "  Errors found: "
 grep -i "error" data/system.log | wc -l
 echo "  Most recent error:"
 grep -i "error" data/system.log | tail -n 1
 echo
-echo "Dashboard complete. You are in command."
+echo -e "${GREEN}Dashboard complete. You are in command.${NC}"
 ```
 
 Press `Esc`, then `:wq` and Enter.
 
 (`echo -n` prints without jumping to a new line, so the count lands on the same
-line as the label.)
+line as the label. `NC` still means "no color" — it's the same variable you
+defined at the top of the file in Step 3.)
 
 Your dashboard now reads real data and reports on it — that's what makes it a
 tool and not just a printout.
