@@ -95,7 +95,6 @@ New to all this? Read **[What's a terminal?](docs/00-what-is-a-terminal.md)** fi
 - `check.sh` — self-check script (run `bash check.sh` anytime)
 - `celebrate.sh` — the finale reward, unlocked once the dashboard runs
 - `workshop-shell.sh` — guard rails that keep you from getting lost (auto-loads in Codespaces)
-- `slides/` — the projector deck (`.pptx`) and the script that generates it
 - `FACILITATOR.md` — the "why": pedagogy, timing, and common stumbles (facilitator-only)
 - `.devcontainer/` — the Codespaces setup (Ubuntu + required tools)
 

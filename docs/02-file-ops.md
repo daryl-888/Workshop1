@@ -48,7 +48,7 @@ You now have an empty `dashboard.sh` and a `data` folder.
 Copy that log into your tool's `data` folder so your dashboard can read it:
 
 ```
-$ cp starter/system.log data/
+$ cp ../starter/system.log data/
 ```
 
 Reading that command: `..` means the folder above (the main workshop folder),
