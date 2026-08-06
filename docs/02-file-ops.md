@@ -44,8 +44,25 @@ You now have an empty `dashboard.sh` and a `data` folder.
 
 ## `cp` — copy a file
 
-`cp` = **copy**. The workshop ships some fake system logs in the `starter` folder.
-Copy that log into your tool's `data` folder so your dashboard can read it:
+`cp` = **copy**. The workshop ships some fake system logs in the `starter` folder,
+back at the main workshop level — not inside `command-center`. Try grabbing it the
+way that feels obvious first:
+
+```
+$ cp starter/system.log data/
+```
+
+You'll get `cp: cannot stat 'starter/system.log': No such file or directory`. That's
+not a broken command — it's a wrong path, and diagnosing that is a real skill.
+Check where you actually are:
+
+```
+$ pwd
+$ ls ..
+```
+
+`pwd` confirms you're inside `command-center`, and `ls ..` shows `starter` sitting
+one level *above* you, not next to you. Fix the path with `..` (the folder above):
 
 ```
 $ cp ../starter/system.log data/
@@ -93,5 +110,7 @@ command-center/
 $ cd ..            # back to the main folder where check.sh lives
 $ bash check.sh
 ```
+
+**Pairing up?** Swap roles now, before you open the next step.
 
 Then open **[Step 3 — Writing the script](03-vim-editing.md)**.

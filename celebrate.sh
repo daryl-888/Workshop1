@@ -10,6 +10,12 @@ ROOT="$(cd "$(dirname "$0")" && pwd)"
 DASH="$ROOT/command-center/dashboard.sh"
 LOG="$ROOT/command-center/data/system.log"
 
+GIT_SAVED=0
+if git -C "$ROOT" rev-parse --git-dir >/dev/null 2>&1 \
+   && git -C "$ROOT" log --oneline -- command-center 2>/dev/null | grep -q .; then
+  GIT_SAVED=1
+fi
+
 R='\033[0;31m'; G='\033[0;32m'; Y='\033[0;33m'; B='\033[0;34m'
 M='\033[0;35m'; C='\033[0;36m'; W='\033[1;37m'; DIM='\033[2m'; N='\033[0m'; BOLD='\033[1m'
 
@@ -115,6 +121,11 @@ for s in "${skills[@]}"; do
   printf "   ${G}[x]${N} %s\n" "$s"
   [ "$ANIM" -eq 1 ] && sleep 0.09
 done
+if [ "$GIT_SAVED" -eq 1 ]; then
+  printf "   ${G}[x]${N} %s\n" "Save      ->  git add  commit  push"
+else
+  printf "   ${DIM}[ ]${N} %s\n" "Save      ->  git add  commit  push  (docs/07-git-basics.md)"
+fi
 printf "\n"
 
 # ---- Rocket launch (Zero -> GPU) ----

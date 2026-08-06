@@ -58,8 +58,17 @@ Start here and do the steps **in order**. Each one is a short guided page.
 | [4 — Reading data](docs/04-pipes-grep.md) | pipes `\|`, `grep`, `wc` | Add log alerts |
 | [5 — Make it run](docs/05-permissions.md) | `chmod` | **It runs!** 🎉 |
 | [6 — Run it in the background](docs/06-processes.md) | `ps`, `kill` | Manage it like a pro |
+| [7 — Save your work](docs/07-git-basics.md) | `git status`, `add`, `commit`, `push` | Ship it to GitHub for good |
 
 Keep the **[vim cheat-sheet](docs/vim-cheatsheet.md)** open in a second tab for Step 3.
+
+## Working in pairs (optional)
+
+If you're in the room with a partner, pair up: one person **drives** (hands on the
+keyboard, types the commands), the other **navigates** (reads the doc a step
+ahead, catches typos, asks "wait, why did we just do that?"). Swap roles at every
+✅ checkpoint — the doc will remind you. Working solo or remote? Skip this, it
+changes nothing about the steps themselves.
 
 ## Check your work anytime
 
@@ -90,7 +99,7 @@ New to all this? Read **[What's a terminal?](docs/00-what-is-a-terminal.md)** fi
 
 ## What's in this repo
 
-- `docs/` — the jargon-free intro and the 6 guided build steps, plus the vim cheat-sheet
+- `docs/` — the jargon-free intro and the 7 guided build steps, plus the vim cheat-sheet
 - `starter/system.log` — sample log data students copy into their tool
 - `check.sh` — self-check script (run `bash check.sh` anytime)
 - `celebrate.sh` — the finale reward, unlocked once the dashboard runs

@@ -57,4 +57,6 @@ $ cd ..
 $ bash check.sh
 ```
 
+**Pairing up?** Swap roles now, before you open the next step.
+
 Then open **[Step 6 — Run it in the background](06-processes.md)**.

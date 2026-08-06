@@ -86,4 +86,7 @@ starts from here.
 $ bash check.sh
 ```
 
+**Pairing up?** Swap now — driver becomes navigator, navigator becomes driver —
+before you open the next step.
+
 Then open **[Step 2 — File setup](02-file-ops.md)**.

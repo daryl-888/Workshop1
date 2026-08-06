@@ -47,19 +47,21 @@ Press `i`, then type this in **exactly** (it's fine to go slow):
 #!/bin/bash
 # My Command Center — a live system dashboard
 
-echo "=============================="
-echo "   COMMAND CENTER"
-echo "   $(whoami)@$(hostname)"
-echo "   $(date '+%Y-%m-%d %H:%M:%S')"
-echo "=============================="
+CYAN='\033[0;36m'; BOLD='\033[1m'; NC='\033[0m'
+
+echo -e "${CYAN}==============================${NC}"
+echo -e "${CYAN}   COMMAND CENTER${NC}"
+echo -e "${CYAN}   $(whoami)@$(hostname)${NC}"
+echo -e "${CYAN}   $(date '+%Y-%m-%d %H:%M:%S')${NC}"
+echo -e "${CYAN}==============================${NC}"
 echo
-echo "UPTIME:"
+echo -e "${BOLD}UPTIME:${NC}"
 uptime -p
 echo
-echo "DISK (root):"
+echo -e "${BOLD}DISK (root):${NC}"
 df -h / | tail -n 1
 echo
-echo "MEMORY:"
+echo -e "${BOLD}MEMORY:${NC}"
 free -h | grep Mem
 echo
 ```
@@ -73,6 +75,10 @@ When done: press `Esc`, then type `:wq` and Enter.
 - `$( ... )` — runs a command and drops its output right into the line. So
   `$(whoami)` becomes your username. This is how the dashboard shows live info.
 - `uptime -p`, `df -h /`, `free -h` — ask the system for uptime, disk, and memory.
+- `CYAN='\033[0;36m'` and friends — these hold color codes as plain text. Wrapping
+  a line in `${CYAN}...${NC}` (`NC` = "no color") tells the terminal to print it
+  in color, then reset back to normal. `echo -e` is what actually makes those
+  codes render instead of printing as literal text.
 
 You don't need to memorize these — you're seeing how a script is just the same
 commands you'd type, saved in order.
@@ -83,5 +89,7 @@ commands you'd type, saved in order.
 $ cd ..
 $ bash check.sh
 ```
+
+**Pairing up?** Swap roles now, before you open the next step.
 
 Then open **[Step 4 — Reading data](04-pipes-grep.md)**.

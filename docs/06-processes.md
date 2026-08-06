@@ -82,26 +82,9 @@ $ cd ..
 $ bash check.sh
 ```
 
-If everything passes — you're done. Open **[the finish line](../README.md)** and
-read the teaser below.
+If everything passes, your tool is fully built and running. One step left, and
+it's quick: make sure it's actually *saved*.
 
----
+**Pairing up?** Swap roles now, before you open the next step.
 
-## One last command — your reward
-
-You've earned it. Run the finale:
-
-```
-$ ./celebrate.sh
-```
-
-(It only unlocks once your dashboard actually runs — so it's proof you made it.)
-
-## 🎉 You built a real tool from an empty terminal.
-
-An hour ago you'd never typed a command. Now you have a working system dashboard
-you wrote, made executable, and ran as a background service.
-
-**Next workshop:** same skills — navigate, edit, run, manage processes — but this
-time the thing you run is **CUDA code on a real GPU**, and your dashboard learns a
-new trick: reporting on the graphics card doing the heavy lifting. See you there.
+Then open **[Step 7 — Save your work with git](07-git-basics.md)**.
