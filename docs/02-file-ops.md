@@ -45,11 +45,12 @@ You now have an empty `dashboard.sh` and a `data` folder.
 ## `cp` — copy a file
 
 `cp` = **copy**. The workshop ships some fake system logs in the `starter` folder,
-back at the main workshop level — not inside `command-center`. Try grabbing it the
+back at the main workshop level(/workspace/Workshop1/) — not inside `command-center`. Try grabbing it the
 way that feels obvious first:
 
 ```
-$ cp starter/system.log data/
+$ cd ..
+$ cp starter/system.log command-center/data/
 ```
 
 You'll get `cp: cannot stat 'starter/system.log': No such file or directory`. That's
