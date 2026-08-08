@@ -62,13 +62,6 @@ $ pwd
 $ ls ..
 ```
 
-`pwd` confirms you're inside `command-center`, and `ls ..` shows `starter` sitting
-one level *above* you, not next to you. Fix the path with `..` (the folder above):
-
-```
-$ cp ../starter/system.log data/
-```
-
 Reading that command: `..` means the folder above (the main workshop folder),
 `starter/system.log` is the file there, and `data/` is where it should land.
 Confirm it arrived:
