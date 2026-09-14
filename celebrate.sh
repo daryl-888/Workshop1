@@ -77,6 +77,7 @@ if [ "$ANIM" -eq 1 ]; then
     done
     printf "%b\n" "$line"; sleep 0.04
   done
+  sleep 0.2
   clear 2>/dev/null
 fi
 
@@ -127,6 +128,8 @@ else
   printf "   ${DIM}[ ]${N} %s\n" "Save      ->  git add  commit  push  (docs/07-git-basics.md)"
 fi
 printf "\n"
+
+sleep 0.5
 
 # ---- Rocket launch (Zero -> GPU) ----
 if [ "$ANIM" -eq 1 ]; then
