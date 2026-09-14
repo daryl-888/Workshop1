@@ -8,7 +8,7 @@ a reply. That's the whole idea.
 
 ```
 you type:   whoami
-computer:   student
+computer:   vscode
 ```
 
 You just asked "who am I logged in as?" and it answered.

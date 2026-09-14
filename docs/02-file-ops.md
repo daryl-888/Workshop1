@@ -50,7 +50,7 @@ way that feels obvious first:
 
 ```
 $ cd ..
-$ cp starter/system.log command-center/data/
+$ cp starter/system.log data/
 ```
 
 You'll get `cp: cannot stat 'starter/system.log': No such file or directory`. That's
